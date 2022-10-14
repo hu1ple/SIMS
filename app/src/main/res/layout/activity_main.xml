@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account_name_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/button_login"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_account_password" />
+
+    <EditText
+        android:id="@+id/editText_account_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/accout_name_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_login" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/account_password"
+        app:layout_constraintEnd_toStartOf="@+id/editText_account_password"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/account_name"
+        app:layout_constraintEnd_toStartOf="@+id/editText_account_name"
+        app:layout_constraintTop_toBottomOf="@+id/text_login" />
+
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="116dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/login_text"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_account_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_account_name" />
+
+    <Button
+        android:id="@+id/bt_import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="信息导入"
+        app:layout_constraintStart_toEndOf="@+id/button_login"
+        app:layout_constraintTop_toBottomOf="@+id/editText_account_password" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/iam_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="老师" />
+
+        <RadioButton
+        android:id="@+id/iam_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="学生" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

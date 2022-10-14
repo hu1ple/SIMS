@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back1"
+    tools:context=".student_activity">
+
+    <Button
+        android:id="@+id/bt_tMyinfo"
+        android:layout_width="182dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/myinf"
+        app:layout_constraintEnd_toEndOf="@+id/bt_transcripts"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_teacher_name" />
+
+    <Button
+        android:id="@+id/bt_tcourseinf"
+        android:layout_width="70dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/courseinf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_tMyinfo" />
+
+    <Button
+        android:id="@+id/bt_transcripts"
+        android:layout_width="70dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="165dp"
+        android:text="成绩查询"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_tcourseinf" />
+
+    <Button
+        android:id="@+id/bt_tMycourse"
+        android:layout_width="70dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/mycourse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_tMyinfo" />
+
+    <EditText
+        android:id="@+id/editText_teacher_name"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textView_teacher"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView_hello"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/say_hello"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:text="老师"
+        app:layout_constraintStart_toEndOf="@+id/editText_teacher_name"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

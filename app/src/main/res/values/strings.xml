@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mywork</string>
+    <string name="login_text">用户登录</string>
+    <string name="account_name">用户名：</string>
+    <string name="account_password">密码：</string>
+    <string name="button_login">登录</string>
+    <string name="accout_name_hint">请输入您的学号或工号</string>
+    <string name="say_hello">您好！</string>
+    <string name="classmate">同学</string>
+    <string name="teacher">老师</string>
+    <string name="myinf">我的信息</string>
+    <string name="courseinf">课程信息</string>
+    <string name="mygradelist">我的成绩单</string>
+    <string name="mycourse">我的课程</string>
+    <string name="id">学号</string>
+    <string name="name">姓名</string>
+</resources>

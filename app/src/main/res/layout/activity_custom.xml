@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_checkInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看TA的信息" />
+
+    <Button
+        android:id="@+id/btn_checkTranscripts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看TA的成绩单" />
+
+    <Button
+        android:id="@+id/btn_checkCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看TA的选课" />
+
+
+</LinearLayout>

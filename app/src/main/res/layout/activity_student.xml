@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back8"
+    tools:context=".student_activity">
+
+    <Button
+        android:id="@+id/bt_Myinfo"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/button_pic"
+        android:text="\n\n\n\n我的\n信息"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_student_name" />
+
+    <Button
+        android:id="@+id/bt_courseinf"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/button_another"
+        android:drawableLeft="@drawable/button_pic_another"
+        android:text="\n\n\n\n课程\n信息"
+        app:layout_constraintStart_toEndOf="@+id/bt_Myinfo"
+        app:layout_constraintTop_toBottomOf="@+id/editText_student_name" />
+
+    <Button
+        android:id="@+id/bt_Mytranscripts"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_3"
+        android:drawableLeft="@drawable/button_pic_3"
+        android:text="\n\n\n\n我的成绩单"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Myinfo" />
+
+    <Button
+        android:id="@+id/bt_Mycourse"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_4"
+        android:drawableLeft="@drawable/button_pic_4"
+        android:text="\n\n\n\n我的\n课程"
+        app:layout_constraintStart_toEndOf="@+id/bt_Mytranscripts"
+        app:layout_constraintTop_toBottomOf="@+id/bt_courseinf" />
+
+    <EditText
+        android:id="@+id/editText_student_name"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/say_hello"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/classmate"
+        app:layout_constraintStart_toEndOf="@+id/editText_student_name"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button.xml" value="0.259" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_3.xml" value="0.1" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_4.xml" value="0.1" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_another.xml" value="0.258" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_pic.xml" value="0.258" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_pic_3.xml" value="0.1" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_pic_4.xml" value="0.1" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/drawable/button_pic_another.xml" value="0.259" />
+        <entry key="..\:/Mywork2/Mywork/app/src/main/res/layout/activity_student.xml" value="0.264" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_base.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_courseinfo.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_import_data.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_myinfo.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_mytranscripts.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_one_course_info.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_smy_course.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_student.xml" value="0.2" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/activity_teacher.xml" value="0.264" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/list_item.xml" value="0.3515625" />
+        <entry key="..\:/source/Mywork/app/src/main/res/layout/list_item_2.xml" value="0.3515625" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_courseinfo.xml" value="0.15" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_custom.xml" value="0.3651041666666667" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_myinfo.xml" value="0.3614583333333333" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_one_course_info.xml" value="0.15" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_smy_course.xml" value="0.3558974358974359" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_start.xml" value="0.13240740740740742" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_student.xml" value="0.3614583333333333" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_student_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_teacher.xml" value="0.3614583333333333" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_tmy_course.xml" value="0.30094043887147337" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/activity_tmyinfo.xml" value="0.36614583333333334" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/avtivity_tmy_course.xml" value="0.5" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/list_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/layout/list_item_2.xml" value="0.3614583333333333" />
+        <entry key="..\:/source/SIMI/SIMS/Mywork/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3135" />
+        <entry key="..\:/source/SIMI/mywork2/Mywork2/Mywork/app/src/main/res/layout/activity_student_list.xml" value="0.1875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
